@@ -50,9 +50,9 @@ urlpatterns = [
     path("api/v1/", include("users.api.v1.urls")),
 ]
 
-admin.site.site_header = "ConnectMe"
-admin.site.site_title = "ConnectMe Admin Portal"
-admin.site.index_title = "ConnectMe Admin"
+admin.site.site_header = "ConnectM"
+admin.site.site_title = "ConnectM Admin Portal"
+admin.site.index_title = "ConnectM Admin"
 
 # swagger
 api_info = openapi.Info(
